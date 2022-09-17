@@ -13,7 +13,7 @@ PIL.Image.MAX_IMAGE_PIXELS = 933120000
 
 class LocalBase(Dataset):
     def __init__(self,
-                 data_root='./danbooru-aesthetic',
+                 data_root='./irasutoya',
                  size=512,
                  interpolation="bicubic",
                  flip_p=0.5,
